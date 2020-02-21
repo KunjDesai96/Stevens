@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Kunj Desai\'s First App</string>
+    <string name="Textview">Please enter your name: </string>
+    <string name="Button">Click here for next Activity</string>
+</resources>
