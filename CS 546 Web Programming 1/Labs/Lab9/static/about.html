@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Prime Number Checker</title>
+    <link rel="stylesheet" type="text/css" href="/public/css/site.css">
+</head>
+
+<body>
+    <main>
+        <header>
+            <h1>
+                Prime Number Checker
+            </h1>
+        </header>
+
+        <p>
+            This website will help you to check if your given input is prime number or not and also it will keep track of it. If the given input is not a prime number you will get the output in red color or else you will get the output in green number.
+        </p>
+
+        <form id="static-form" method="post" class="new-post-form">
+            <div class="form-group">
+                <label for="number">Enter number:</label>
+                <input type="number" id="number" name="number" placeholder="Enter number" value="" class="full-width-input">
+            </div>
+
+            <div class="form-group hidden" id="error-container">
+                <div class="alert alert-success text-goes-here">
+                </div>
+            </div>
+
+            <div class="form-group">
+                <button type="submit" class="btn btn-default">Submit</button>
+            </div>
+            <ol id="attempts">
+
+            </ol>
+        </form>
+    </main>
+
+    <footer>
+        <p style="text-align:left;">
+            Name: Kunj Desai
+            <span style="float:right;">
+               CWID: 10444511
+            </span>
+        </p>
+    </footer>
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    <script src="/public/js/form.js"></script>
+
+
+</body>
+
+</html>

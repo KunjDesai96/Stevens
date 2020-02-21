@@ -1,0 +1,15 @@
+<h1>
+  People Finder
+</h1>
+<p>
+  This website will help you find out information of a person. If you don't know the whole name of the person,
+  just give a part of the name and we will do the rest.
+</p>
+<form action="/search" method="POST" class="new-post-form">
+  <label for="person_name">
+    Person Name
+    <input type="text" name="personName" placeholder="Person name" id ="person_name" value="{{person.name}}" class="full-width-input" />
+  </label>
+
+  <button type="submit">Search</button>
+</form>
