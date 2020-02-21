@@ -1,0 +1,12 @@
+select_variables:cust, prod
+
+where:newtuple.year == 1997
+
+grouping_attributes:cust, prod
+
+number_of_gv:2
+
+fvect:1_sum_quant, 2_sum_quant
+
+select_condition:1_newtuple.cust.equals(temp.cust), 2_newtuple.cust.equals(temp.cust)
+

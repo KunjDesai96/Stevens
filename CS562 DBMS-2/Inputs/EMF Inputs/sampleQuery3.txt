@@ -1,0 +1,12 @@
+select_variables:cust, prod, month
+
+where:
+
+grouping_attributes:cust, prod, month
+
+number_of_gv:2
+
+fvect:1_avg_quant, 2_avg_quant
+
+select_condition:1_newtuple.cust.equals(temp.cust), 2_newtuple.cust.equals(temp.cust), 1_newtuple.prod.equals(temp.prod), 2_newtuple.prod.equals(temp.prod), 1_newtuple.month+1 == temp.month, 2_newtuple.month-1 == temp.month
+
