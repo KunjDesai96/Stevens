@@ -1,0 +1,17 @@
+{
+    "name": "lab-3",
+    "version": "1.0.0",
+    "description": "",
+    "main": "app.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node app.js"
+    },
+    "author": "Kunj Desai 10444511",
+    "license": "ISC",
+    "dependencies": {
+        "bluebird": "^3.7.2",
+        "express": "^4.17.1",
+        "redis": "^3.0.2"
+    }
+}
